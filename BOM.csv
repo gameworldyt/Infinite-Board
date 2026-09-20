@@ -1,0 +1,38 @@
+
+# USED
+| Component                      | Qty used | Source                                                                                                                                              |
+| ------------------------------ | -------: | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Seeed Studio XIAO RP2040       |        1 | [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-with-Pre-Soldered-RP2040-4MB-Flash-MCU-Board-p-6328.html?utm_source=chatgpt.com) |
+| MX-style mechanical switches   |       12 | **Hack Club kit**                                                                                                                                   |
+| 1N4148 through-hole diodes     |       12 | **Hack Club kit**                                                                                                                                   |
+| 0.91" 128×32 OLED              |        1 | **Hack Club kit**                                                                                                                                   |
+| DSA keycaps                    |       12 | **Hack Club kit**                                                                                                                                   |
+| M3 × 16 mm screws              |        4 | **Hack Club kit**                                                                                                                                   |
+| M3 × 5 × 4 mm heat-set inserts |        4 | **Hack Club kit**                                                                                                                                   |
+| Custom 2-layer PCB             |        1 | Fabricated using Hack Club PCB grant                                                                                                                |
+| 3D-printed case — TopShell     |        1 | Printing Legion / 3D printed                                                                                                                        |
+| 3D-printed case — BottomShell  |        1 | Printing Legion / 3D printed                                                                                                                        |
+
+
+# NOT USED
+| Component            | Kit quantity |  Used |
+| -------------------- | -----------: | ----: |
+| MX-style switches    |           16 |    12 |
+| 1N4148 diodes        |           20 |    12 |
+| EC11 rotary encoders |            2 | **0** |
+| DSA keycaps          |           16 |    12 |
+| SK6812 MINI-E LEDs   |           16 | **0** |
+
+
+# CSV FORMAT 
+Component,Quantity,Source,Link,Notes
+Seeed Studio XIAO RP2040,1,Seeed Studio,https://www.seeedstudio.com/XIAO-RP2040-with-Pre-Soldered-RP2040-4MB-Flash-MCU-Board-p-6328.html,Main MCU
+MX-style mechanical switch,12,Hack Club Kit,,12 of 16 supplied
+1N4148 through-hole diode,12,Hack Club Kit,,12 of 20 supplied
+0.91 inch OLED display,1,Hack Club Kit,,GND-VCC-SCL-SDA
+DSA keycap,12,Hack Club Kit,,12 of 16 supplied
+M3 x 16mm screw,4,Hack Club Kit,,Case assembly
+M3 x 5 x 4mm heat-set insert,4,Hack Club Kit,,Case mounting
+Custom 2-layer PCB,1,PCB manufacturer,,97x67mm
+3D printed TopShell,1,Printing Legion,,Case
+3D printed BottomShell,1,Printing Legion,,Case
