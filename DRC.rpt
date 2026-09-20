@@ -1,0 +1,161 @@
+** Drc report for Infinite-Pad.kicad_pcb **
+** Created on 2026-09-19T22:31:50 **
+** Report includes: Errors, Warnings **
+
+** Found 6 DRC violations **
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.6500 mm, 98.5500 mm): Reference field of K12
+    @(117.2050 mm, 97.5250 mm): Reference field of K8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(118.8500 mm, 89.8100 mm): Segment of K6 on F.Silkscreen
+    @(117.5000 mm, 90.2500 mm): Reference field of K9
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.1400 mm, 91.1400 mm): Segment of K9 on F.Silkscreen
+    @(117.2050 mm, 90.5750 mm): Reference field of K5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(117.5000 mm, 90.2500 mm): Reference field of K9
+    @(117.2050 mm, 90.5750 mm): Reference field of K5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(76.7000 mm, 98.3100 mm): Segment of K7 on F.Silkscreen
+    @(75.3500 mm, 98.7500 mm): Reference field of K10
+
+** Found 30 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 66.0000 mm): PTH pad 2 [Net-(D1-A)] of D1
+    @(81.5000 mm, 66.0000 mm): PTH pad 2 [Net-(D1-A)] of D9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 85.5000 mm): PTH pad 2 [Net-(D1-A)] of D5
+    @(93.5000 mm, 66.0000 mm): PTH pad 2 [Net-(D1-A)] of D1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.8800 mm, 66.0000 mm): PTH pad 1 [Net-(D1-K)] of D1
+    @(128.1500 mm, 67.5000 mm): Pad 2 [Net-(D1-K)] of K1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.0000 mm, 79.0000 mm): PTH pad 2 [Net-(D10-A)] of D10
+    @(92.5000 mm, 90.5000 mm): PTH pad 2 [Net-(D10-A)] of D6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.5000 mm, 71.0000 mm): PTH pad 1 [Net-(D10-A)] of D2
+    @(81.0000 mm, 79.0000 mm): PTH pad 2 [Net-(D10-A)] of D10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.1200 mm, 71.0000 mm): PTH pad 2 [Net-(D10-A)] of D2
+    @(85.5000 mm, 71.0000 mm): PTH pad 1 [Net-(D10-A)] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.3000 mm, 77.7500 mm): Pad 2 [Net-(D10-A)] of K2 on F.Cu
+    @(93.1200 mm, 71.0000 mm): PTH pad 2 [Net-(D10-A)] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.8800 mm, 75.0000 mm): PTH pad 1 [Net-(D3-K)] of D3
+    @(118.8000 mm, 77.7500 mm): Pad 2 [Net-(D3-K)] of K3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(92.5000 mm, 95.5000 mm): PTH pad 2 [Net-(D11-A)] of D7
+    @(93.5000 mm, 75.0000 mm): PTH pad 2 [Net-(D11-A)] of D3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 75.0000 mm): PTH pad 2 [Net-(D11-A)] of D3
+    @(81.5000 mm, 72.0000 mm): PTH pad 2 [Net-(D11-A)] of D11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.8800 mm, 79.5000 mm): PTH pad 1 [Net-(D4-K)] of D4
+    @(119.3000 mm, 68.2500 mm): Pad 2 [Net-(D4-K)] of K4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.0000 mm, 86.1000 mm): PTH pad 2 [Net-(D12-A)] of D12
+    @(91.5000 mm, 101.0000 mm): PTH pad 2 [Net-(D12-A)] of D8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 79.5000 mm): PTH pad 2 [Net-(D12-A)] of D4
+    @(81.0000 mm, 86.1000 mm): PTH pad 2 [Net-(D12-A)] of D12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.8800 mm, 85.5000 mm): PTH pad 1 [Net-(D5-K)] of D5
+    @(127.3000 mm, 84.7000 mm): Pad 2 [Net-(D5-K)] of K5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.8800 mm, 90.5000 mm): PTH pad 1 [Net-(D6-K)] of D6
+    @(118.6500 mm, 87.0000 mm): Pad 2 [Net-(D6-K)] of K6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.5000 mm, 95.5000 mm): Pad 2 [Net-(D7-K)] of K7 on F.Cu
+    @(84.8800 mm, 95.5000 mm): PTH pad 1 [Net-(D7-K)] of D7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8800 mm, 101.0000 mm): PTH pad 1 [Net-(D8-K)] of D8
+    @(127.3000 mm, 91.6500 mm): Pad 2 [Net-(D8-K)] of K8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.8800 mm, 66.0000 mm): PTH pad 1 [Net-(D9-K)] of D9
+    @(118.6500 mm, 93.9500 mm): Pad 2 [Net-(D9-K)] of K9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.3800 mm, 79.0000 mm): PTH pad 1 [Net-(D10-K)] of D10
+    @(76.5000 mm, 102.4500 mm): Pad 2 [Net-(D10-K)] of K10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.8800 mm, 72.0000 mm): PTH pad 1 [Net-(D11-K)] of D11
+    @(127.3000 mm, 98.6000 mm): Pad 2 [Net-(D11-K)] of K11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.3800 mm, 86.1000 mm): PTH pad 1 [Net-(D12-K)] of D12
+    @(117.8000 mm, 102.2500 mm): Pad 2 [Net-(D12-K)] of K12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 76.0000 mm): Pad 1 [Net-(U1-D0)] of K3 on F.Cu
+    @(125.0000 mm, 76.0000 mm): Pad 1 [Net-(U1-D0)] of K2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0000 mm, 66.5000 mm): Pad 1 [Net-(U1-D0)] of K4 on F.Cu
+    @(116.5000 mm, 76.0000 mm): Pad 1 [Net-(U1-D0)] of K3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8500 mm, 65.7500 mm): Pad 1 [Net-(U1-D0)] of K1 on F.Cu
+    @(117.0000 mm, 66.5000 mm): Pad 1 [Net-(U1-D0)] of K4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.3500 mm, 85.2500 mm): Pad 1 [Net-(U1-D1)] of K6 on F.Cu
+    @(74.2000 mm, 93.7500 mm): Pad 1 [Net-(U1-D1)] of K7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.0000 mm, 82.9500 mm): Pad 1 [Net-(U1-D1)] of K5 on F.Cu
+    @(116.3500 mm, 85.2500 mm): Pad 1 [Net-(U1-D1)] of K6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.0000 mm, 89.9000 mm): Pad 1 [Net-(U1-D1)] of K8 on F.Cu
+    @(125.0000 mm, 82.9500 mm): Pad 1 [Net-(U1-D1)] of K5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.2000 mm, 100.7000 mm): Pad 1 [Net-(U1-D2)] of K10 on F.Cu
+    @(115.5000 mm, 100.5000 mm): Pad 1 [Net-(U1-D2)] of K12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.3500 mm, 92.2000 mm): Pad 1 [Net-(U1-D2)] of K9 on F.Cu
+    @(115.5000 mm, 100.5000 mm): Pad 1 [Net-(U1-D2)] of K12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.0000 mm, 96.8500 mm): Pad 1 [Net-(U1-D2)] of K11 on F.Cu
+    @(116.3500 mm, 92.2000 mm): Pad 1 [Net-(U1-D2)] of K9 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
