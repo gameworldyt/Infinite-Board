@@ -1,0 +1,8 @@
+# KiCad temporary lock files
+*.lck
+
+# KiCad temporary/project-local files
+*.kicad_prl
+
+# VS Code / editor history
+.history/
